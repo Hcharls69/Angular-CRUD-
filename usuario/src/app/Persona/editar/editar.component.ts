@@ -17,6 +17,7 @@ export class EditarComponent implements OnInit {
   persona: Persona = new Persona(this.id, this.nombre, this.edad, this.lastName);
 
   constructor(private router:Router, private service:ServiceService) { }
+npm install sweetalert2
 
   ngOnInit(): void {
     this.Editar();
